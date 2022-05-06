@@ -71,3 +71,27 @@ readMore.addEventListener("click", function() {
   readMore.remove();
 })
 
+//more certificate
+const moreCertificate = document.getElementById("more-certificate");
+const btnMoreCertificateVis = document.getElementById("btn-more-certificate-vis");
+const btnMoreCertificateInv = document.getElementById("btn-more-certificate-inv");
+
+// btnMoreCertificateInv.style.display = "none";
+
+btnMoreCertificateVis.addEventListener("click", function() {
+  moreCertificate.classList.remove("hidden");
+  moreCertificate.classList.add("flex");
+
+  btnMoreCertificateVis.classList.add("hidden");
+  btnMoreCertificateInv.classList.remove("hidden")
+});
+
+btnMoreCertificateInv.addEventListener("click", function() {
+  moreCertificate.classList.add("hidden");
+
+  btnMoreCertificateVis.classList.remove("hidden");
+  btnMoreCertificateInv.classList.add("hidden")
+});
+
+
+
