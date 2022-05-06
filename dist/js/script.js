@@ -61,3 +61,13 @@ if (
   darkToggle.checked = false;
   themeStatus.innerText = "🌞";
 }
+
+// read more paragraf
+const readMore = document.getElementById("read-more");
+const secondParagraf = document.getElementById("second-paragraf");
+
+readMore.addEventListener("click", function() {
+  secondParagraf.classList.remove("hidden");
+  readMore.remove();
+})
+
