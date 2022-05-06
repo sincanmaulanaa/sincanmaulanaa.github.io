@@ -1,7 +1,6 @@
 {
   "name": "sincan-portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,14 @@
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.8",
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sincanmaulanaa/sincanmaulanaa.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sincanmaulanaa/sincanmaulanaa.github.io/issues"
+  },
+  "homepage": "https://github.com/sincanmaulanaa/sincanmaulanaa.github.io#readme",
+  "description": ""
 }
