@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio | Sincan Maulana</title>
+	<title>Sincan Maulana</title>
 	<link rel="stylesheet" href="dist/output.css">
 	<script>
 		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)')
@@ -23,8 +23,8 @@
 		<div class="container">
 			<div class="flex items-center justify-between relative">
 				<div class="px-4">
-					<a href="#home" class="font-bold text-lg text-primary dark:text-indigo-400 block py-6">Sincan
-						Maulana</a>
+					<a href="#home"
+						class="font-bold text-xl text-primary dark:text-indigo-400 block py-6 underline decoration-2">Sincan.</a>
 				</div>
 				<div class="flex items-center px-4">
 					<button id="burger" name="burger" type="button" class="block absolute right-4 lg:hidden">
@@ -38,20 +38,15 @@
 						<ul class="block lg:flex">
 							<li class="group hover:underline">
 								<a href="#home"
-									class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:group-hover:text-indigo-400 dark:text-white">Beranda</a>
-							</li>
-							<li class="group hover:underline">
-								<a href="#about"
-									class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white dark:group-hover:text-indigo-400">Tentang
-									Saya</a>
+									class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:group-hover:text-indigo-400 dark:text-white">Home</a>
 							</li>
 							<li class="group hover:underline">
 								<a href="#portfolio"
 									class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white dark:group-hover:text-indigo-400">Portfolio</a>
 							</li>
 							<li class="group hover:underline">
-								<a href="#certificate"
-									class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white dark:group-hover:text-indigo-400">Sertifikasi</a>
+								<a href="#service"
+									class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white dark:group-hover:text-indigo-400">Services</a>
 							</li>
 							<li class="flex items-center pl-4 mt-3 lg:mt-0.5">
 								<div class="flex items-center">
@@ -75,23 +70,25 @@
 	</header>
 	<!-- END: HEADER -->
 	<!-- START: HERO SECTION -->
-	<section id="home" class="pt-36 dark:bg-dark">
+	<section id="home" class="pt-36 dark:bg-dark pb-32">
 		<div class="container">
 			<div class="flex flex-wrap">
 				<div class="w-full self-center pl-5 md:pl-20 lg:w-1/2">
-					<h1 class="text-base font-semibold text-primary md:text-xl dark:text-indigo-400">Halo Semua 👋, saya
-						<span class="block font-bold text-dark
-						text-4xl mt-1 lg:text-5xl dark:text-white">Sincan Maulana</span></h1>
-					<h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Student & <span
-							class="text-dark dark:text-white">Fullstack Web
-							Designer</span>
+					<h1 class="text-base font-semibold text-primary md:text-xl dark:text-indigo-400">Hi There👋, I'm
+						<span class="block font-semibold text-dark
+						text-4xl mt-1 lg:text-6xl dark:text-white">Sincan Maulana</span></h1>
+					<h2 class="font-medium text-dark text-lg mb-5 mt-1 lg:text-3xl dark:text-white">Student And <span
+							class="underline decoration-primary dark:decoration-indigo-400">Frontend
+							Developer</span>
 					</h2>
-					<p class="font-medium text-secondary mb-10 leading-relaxed">Selamat datang di website portfolio
-						saya, <span class="text-dark font-bold dark:text-white">Have Fun :)</span></p>
+					<p
+						class="font-medium text-dark mb-10 leading-relaxed lg:max-w-md mt-10 text-lg dark:text-secondary">
+						I am a Programmer based in Ponorogo, Indonesia. And I have been working as a freelancer for
+						around 1 year as a frontend developer.</p>
 
 					<a href="#hubungi-saya"
-						class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-indigo-00 hover:opacity-80 transition duration-300 ease-in-out">Hubungi
-						Saya</a>
+						class="text-base text-white bg-primary dark:decoration-indigo-400 py-3 px-8 rounded-md hover:shadow-lg hover:bg-indigo-00 hover:opacity-80 transition duration-300 ease-in-out">Contact
+						Me</a>
 				</div>
 
 				<div class="w-full self-end px-4 lg:w-1/2">
@@ -113,27 +110,31 @@
 	<!-- END: HERO SECTION -->
 
 	<!-- START: ABOUT SECTION -->
-	<section class="pt-36 pb-32 dark:bg-dark" id="about">
+	<section class="py-24 bg-primary" id="about">
 		<div class="container">
 			<div class="flex flex-wrap">
-				<div class="w-full px-4 mb-10 lg:w-1/2">
-					<h4 class="font-bold uppercase text-primary text-lg mb-3 dark:text-indigo-400">Tentang Saya</h4>
-					<h2 class="font-bold text-dark text-3xl mb-5 lg:text-4xl dark:text-white">Yuk, Kenalan
-						dengan saya!</h2>
-					<p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Hai, nama saya Sincan Maulana.
-						Saya suka memecahkan masalah dan mengimplementasikan ide dengan desain.
-						Tertarik untuk mengeksplorasi berbagai gaya desain dan mengikuti tren desain. Saya juga suka
-						slicing desain untuk situs web saya.</p>
+				<div class="w-full px-4 mb-10 lg:mb-0 lg:w-1/2">
+					<h4 class="font-bold uppercase text-white text-lg mb-3">About Me</h4>
+					<h2 class="font-bold text-3xl mb-5 lg:text-4xl text-white">Let's get to know me!</h2>
+					<p class="font-medium text-base text-slate-200 max-w-xl lg:text-lg">Hi, my name
+						is <span class="underline decoration-2 decoration-indigo-400 text-white">Sincan
+							Maulana</span> .
+						I love to solve the problem and implement idea with design and code. Interest to
+						explore different styles of design and follow the design and technology trends for frontend
+						development.</p>
 				</div>
 				<div class="w-full px-4 lg:w-1/2">
-					<h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">Mari berteman
+					<h3
+						class="font-semibold text-2xl mb-4 lg:text-3xl lg:pt-10 text-white dark:decoration-indigo-400 underline">
+						Stay In Touch
 					</h3>
-					<p class="font-medium text-base text-secondary mb-6 lg:text-lg">Jangkau saya dengan mengikuti
-						beberapa media sosial.</p>
+					<p class="font-medium text-base mb-6 lg:text-lg text-slate-200">Reach me by
+						following some of my
+						social media.</p>
 					<div class="flex items-center">
 						<!-- Instagram -->
 						<a href="https://instagram.com/sincan.mln" target="_blank"
-							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white text-slate-300">
 							<svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 								class="fill-current">
 								<title>Instagram</title>
@@ -144,7 +145,7 @@
 
 						<!-- Facebook -->
 						<a href="https://instagram.com/sincan.mln" target="_blank"
-							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white text-slate-300">
 							<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
 								class="fill-current">
 								<title>Facebook</title>
@@ -155,7 +156,7 @@
 
 						<!-- Github -->
 						<a href="https://github.com/sincanmaulanaa" target="_blank"
-							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white text-slate-300">
 							<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
 								class="fill-current">
 								<title>GitHub</title>
@@ -165,8 +166,8 @@
 						</a>
 
 						<!-- LinkedIn -->
-						<a href="https://github.com/sincanmaulanaa" target="_blank"
-							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white text-slate-300">
+						<a href="https://www.linkedin.com/in/sincanmaulanaa/" target="_blank"
+							class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white text-slate-300">
 							<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20"
 								class="fill-current">
 								<title>LinkedIn</title>
@@ -182,15 +183,14 @@
 	<!-- END: ABOUT SECTION -->
 
 	<!-- START: PORTFOLIO SECTION -->
-	<section id="portfolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
+	<section id="portfolio" class="pt-36 pb-16 bg-white dark:bg-slate-800">
 		<div class="container">
 			<div class="w-full px-4">
-				<div class="max-w-xl mx-auto text-center mb-16">
-					<h4 class="font-semibold text-lg text-primary mb-2 dark:text-indigo-400">Portfolio</h4>
-					<h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Projek
-						Terbaru</h2>
-					<p class="font-medium text-md text-secondary md:text-lg">Dibawah ini adalah project terbaru yang
-						telah saya buat.</p>
+				<div class="max-w-2xl mx-auto text-center mb-16">
+					<h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">View More with
+						<span class="text-primary dark:text-indigo-400">Case Study</span></h2>
+					<p class="font-medium text-md text-dark md:text-lg dark:text-white">Here the latest project i made.
+					</p>
 				</div>
 			</div>
 
@@ -200,21 +200,20 @@
 						<img src="dist/img/portfolio/rak-buku.png" alt="Rak buku App"
 							class="w-full object-cover h-80 dark:bg-slate-700">
 					</div>
-					<h3 class="font-semibold dark:text-white text-dark text-xl mt-5 mb-3">Rak Buku App</h3>
-					<p class="font-medium text-base text-secondary">Well, ini adalah projek tugas akhirku untuk kursus
+					<h3 class="font-semibold dark:text-white text-dark text-xl mt-5 mb-3">Bookshelf App</h3>
+					<p class="font-medium text-base text-slate-700 dark:text-secondary">Well, this is my final project
+						for the
 						<a href="https://www.dicoding.com/academies/315" target="_blank"><span
-								class="text-slate-800 underline decoration-2 hover:text-primary">Belajar Membuat
-								Front-End
-								Web Untuk
-								Pemula</span>
-						</a> dari
-						Dicoding
-						Academy :).
+								class="text-slate-800 underline decoration-2 hover:text-primary dark:hover:text-white transition duration-300 dark:text-secondary">Learn
+								to Create
+								Front-End Web for Beginners</span>
+						</a>
+						from Dicoding Academy :).
 					</p>
 
 					<div class="flex space-x-3 mt-5">
 						<a href="https://sincandev.me/Bookshelf-Apps/" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center">
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current rotate-45" fill="none"
 								viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 								<path stroke-linecap="round" stroke-linejoin="round" d="M7 11l5-5m0 0l5 5m-5-5v12" />
@@ -222,7 +221,7 @@
 							Demo
 						</a>
 						<a href="https://github.com/sincanmaulanaa/Bookshelf-Apps" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center"><svg
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center"><svg
 								role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 								class="w-5 h-5 mr-2 fill-current">
 								<title>GitHub</title>
@@ -239,21 +238,20 @@
 							class="w-full object-cover h-80">
 					</div>
 					<h3 class="font-semibold dark:text-white text-dark text-xl mt-5 mb-3">Recipes Menu</h3>
-					<p class="font-medium text-base text-secondary">Awal mula aku belajar
+					<p class="font-medium text-base text-slate-700 dark:text-secondary">I started to learn
 						<a href="https://tailwindcss.com/" target="_blank"
-							class="text-slate-800 underline decoration-2 hover:text-primary"><svg role="img"
-								viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+							class="text-slate-800 underline decoration-2 hover:text-primary dark:hover:text-white transition duration-300 dark:text-secondary"><svg
+								role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 								class="w-4 h-4 inline-block ml-1 fill-current">
 								<title>Tailwind CSS</title>
 								<path
 									d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
-							</svg> TailwindCSS</a>, dan ini
-						website pertama kali yang aku buat dengan itu 😊.
+							</svg> TailwindCSS</a>, and this is the first simple website I created with it 😊.
 					</p>
 
 					<div class="flex space-x-3 mt-5">
 						<a href="https://sincandev.me/recipes-simple-website/" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center">
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current rotate-45" fill="none"
 								viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 								<path stroke-linecap="round" stroke-linejoin="round" d="M7 11l5-5m0 0l5 5m-5-5v12" />
@@ -261,7 +259,7 @@
 							Demo
 						</a>
 						<a href="https://github.com/sincanmaulanaa/recipes-simple-website" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center"><svg
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center"><svg
 								role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 								class="w-5 h-5 mr-2 fill-current">
 								<title>GitHub</title>
@@ -278,21 +276,23 @@
 							class="w-full object-cover h-80">
 					</div>
 					<h3 class="font-semibold dark:text-white text-dark text-xl mt-5 mb-3">Sneakers Product Page</h3>
-					<p class="font-medium text-base text-secondary">Pengen nyoba skill, jadi aku cari tantangan dari
+					<p class="font-medium text-base text-slate-700 dark:text-secondary">Wanted to try a skill, so i
+						looked for a challenge
+						from a
 						<a href="https://www.frontendmentor.io/" target="_blank"
-							class="text-slate-800 underline decoration-2 hover:text-primary ml-1.5">
+							class="text-slate-800 underline decoration-2 hover:text-primary dark:hover:text-white transition duration-300 dark:text-secondary">
 							<svg role="img" class="w-4 h-4 fill-current inline-block" viewBox="0 0 24 24"
 								xmlns="http://www.w3.org/2000/svg">
 								<title>Frontend Mentor</title>
 								<path
 									d="M12.1706 1.2719a.732.732 0 00-.7186.732v13.914a.732.732 0 00.732.732.732.732 0 00.7318-.732V2.004a.732.732 0 00-.7452-.732zm11.0741 4.1685a.7339.7339 0 00-.2764.063L16.686 8.307a.7329.7329 0 000 1.3361l6.2823 2.8134a.7378.7378 0 00.2993.0648.732.732 0 00.2973-1.401l-4.786-2.1443 4.786-2.1366a.7339.7339 0 00.3698-.9664.7339.7339 0 00-.69-.4327zm-22.499 5.032a.7316.7316 0 00-.7223.9149c1.736 6.677 7.7748 11.341 14.6822 11.341a.732.732 0 000-1.464 13.7055 13.7055 0 01-13.266-10.2449.7316.7316 0 00-.6939-.547z" />
 							</svg>
-							Front-End Mentor</a>, dan jadilah website ini 😁.
+							Front-End Mentor</a>, and this website became one 😁.
 					</p>
 
 					<div class="flex space-x-3 mt-5">
 						<a href="https://sincandev.me/ecommerce-product-page-main/" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center">
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current rotate-45" fill="none"
 								viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 								<path stroke-linecap="round" stroke-linejoin="round" d="M7 11l5-5m0 0l5 5m-5-5v12" />
@@ -300,7 +300,7 @@
 							Demo
 						</a>
 						<a href="https://github.com/sincanmaulanaa/ecommerce-product-page-main" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center"><svg
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center"><svg
 								role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 								class="w-5 h-5 mr-2 fill-current">
 								<title>GitHub</title>
@@ -317,28 +317,24 @@
 							class="w-full object-cover h-80">
 					</div>
 					<h3 class="font-semibold text-dark dark:text-white text-xl mt-5 mb-3">Luxspace - Saingan IKEA</h3>
-					<p class="font-medium text-base text-secondary mb-2">ini website dengan
-						pembuatan paling lama yang
-						pernah
-						aku buat dengan
-						menerapkan metode Design Handoff.
-						<button class="text-slate-800 hover:text-primary font-bold"
-							id="read-more">selengkapnya...</button>
+					<p class="font-medium text-base text-slate-700 dark:text-secondary mb-2">This is the website with
+						the longest creation
+						I've ever made using the Design Handoff method.
+						<button class="text-slate-900 hover:text-primary font-bold dark:text-white"
+							id="read-more">more...</button>
 					</p>
-					<p class="font-medium text-base text-secondary hidden" id="second-paragraf">Menerapkan design yang
-						sudah
-						ada dan telah
-						dilanjutkan
-						pada
-						tahap development menggunakan software
-						<span class="text-slate-800 underline decoration-2">zeplin, Visual Studio
-							Code, dan juga CSS Framework
-							Tailwind versi terbaru</span>
+					<p class="font-medium text-base text-slate-700 dark:text-secondary hidden" id="second-paragraf">
+						Implement existing
+						designs and continue at the development stage using
+						<span
+							class="text-slate-800 underline decoration-2 hover:text-primary dark:hover:text-white transition duration-300 dark:text-secondary">Zeplin
+							software, Visual Studio Code, and
+							also the latest version of the Tailwind CSS Framework.</span>
 					</p>
 
 					<div class="flex space-x-3 mt-5">
 						<a href="https://luxspaceee.netlify.app/" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center">
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current rotate-45" fill="none"
 								viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 								<path stroke-linecap="round" stroke-linejoin="round" d="M7 11l5-5m0 0l5 5m-5-5v12" />
@@ -346,7 +342,7 @@
 							Demo
 						</a>
 						<a href="https://github.com/sincanmaulanaa/luxspace" target="_blank"
-							class="py-2 px-6 border border-primary rounded-full hover:bg-primary transition duration-300 hover:text-white text-primary text-sm flex items-center"><svg
+							class="py-2 px-6 border-2 font-medium border-primary dark:border-indigo-400 rounded-full hover:bg-primary dark:hover:bg-indigo-400 transition duration-300 hover:text-white text-primary dark:text-indigo-400 dark:hover:text-white text-sm flex items-center"><svg
 								role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 								class="w-5 h-5 mr-2 fill-current">
 								<title>GitHub</title>
@@ -359,10 +355,10 @@
 			</div>
 
 			<div
-				class="w-full px-4 text-center border-b border-slate-300 pt-12 pb-8 font-semibold text-lg text-slate-700 shadow-sm">
-				Lihat semua projek saya di
+				class="w-full px-4 text-center border-b border-slate-200 pt-12 pb-8 font-semibold text-lg text-slate-700 shadow-sm dark:text-white">
+				See all my projects on
 				<a href="https://github.com/sincanmaulanaa/" target="_blank"
-					class="py-2 px-6 border border-primary rounded-full bg-primary transition duration-300 text-white text-sm inline-block ml-2.5 shadow-sm shadow-primary/50 hover:bg-primary/75 hover:border-primary/75 focus:outline-none focus:ring focus:border-primary/75"><svg
+					class="py-2 px-6 border-2 border-primary rounded-full bg-primary dark:bg-indigo-600 dark:border-indigo-600 dark:hover:bg-primary/40 transition duration-300 text-white text-sm inline-block ml-2.5 shadow-sm shadow-primary/50 hover:bg-primary/75 hover:border-primary/75 dark:shadow-none focus:outline-none focus:ring focus:border-primary/75"><svg
 						role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 						class="w-5 h-5 mr-2 fill-current inline-block">
 						<title>GitHub</title>
@@ -376,14 +372,14 @@
 	<!-- END: PORTFOLIO SECTION -->
 
 	<!-- START: WORK-WITH-ME SECTION -->
-	<section id="hubungi-saya" class="pt-24 pb-16 bg-slate-100 dark:bg-slate-800">
-		<div class="container px-16">
+	<section id="hubungi-saya" class="pt-24 pb-40 dark:bg-slate-800">
+		<div class="container">
 			<div
 				class="w-full px-12 py-16 dark:bg-dark bg-primary rounded-3xl flex justify-center lg:justify-between flex-wrap items-center md:space-y-8 lg:space-y-0">
 				<h2
-					class="font-semibold text-white text-3xl leading-snug sm:text-3xl lg:text-4xl dark:text-white text-center">
-					Tertarik
-					bekerja dengan saya?</h2>
+					class="font-semibold text-white text-3xl leading-snug sm:text-3xl lg:text-5xl dark:text-white text-center">
+					Interested to work with me?
+				</h2>
 				<div
 					class="flex mt-6 lg:mt-0 justify-center items-center flex-col lg:justify-end lg:flex-row space-y-4 md:space-y-4 lg:space-y-0 lg:space-x-6">
 					<button>
@@ -405,7 +401,7 @@
 								<path stroke-linecap="round" stroke-linejoin="round"
 									d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 							</svg>Email
-							Saya
+							Me
 						</a>
 					</button>
 				</div>
@@ -434,7 +430,8 @@
 							alt="Sertifikat Belajar Membuat Front-End Web Untuk Pemula" class="w-full">
 						<div class="py-8 px-6">
 							<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-									href="#">Belajar Membuat Front-End Web Untuk Pemula</a></h3>
+									href="https://dicoding.com/certificates/QLZ915K5EP5D">Belajar Membuat Front-End Web
+									Untuk Pemula</a></h3>
 							<p class="font-medium text-secondary text-base mb-6">Oleh <span
 									class="text-slate-800">Dicoding Academy</span></p>
 							<a href="https://dicoding.com/certificates/QLZ915K5EP5D" target="_blank"
@@ -454,7 +451,8 @@
 							class="w-full">
 						<div class="py-8 px-6">
 							<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-									href="#">Fullstack Web Designer 2021</a></h3>
+									href="https://buildwithangga.com/talent/sincanmaulanaa/full-stack-web-designer-handoff-dan-front-end">Fullstack
+									Web Designer 2021</a></h3>
 							<p class="font-medium text-secondary text-base mb-6">Oleh <span
 									class="text-slate-800">BuildWithAngga</span></p>
 							<a href="https://buildwithangga.com/talent/sincanmaulanaa/full-stack-web-designer-handoff-dan-front-end"
@@ -472,7 +470,7 @@
 				<div class="w-full px-4 lg:w-1/2 xl:w-1/3">
 					<div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg mb-10">
 						<img src="./dist/img/sertifikat/web-dev-kominfo.jpg"
-							alt="Sertifikar Junior Web Developer Digital Talent Scholarship 2022" class="w-full">
+							alt="Sertifikat Junior Web Developer Digital Talent Scholarship 2022" class="w-full">
 						<div class="py-8 px-6">
 							<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary dark:hover:text-primary"
 									href="#certicate">Junior Web Developer Digital Talent Scholarship 2022</a></h3>
@@ -489,7 +487,8 @@
 								alt="Sertifikat Become a Web Designer - HTML & CSS For Beginners" class="w-full">
 							<div class="py-8 px-6">
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-										href="#">Become a Web Designer - HTML & CSS For Beginners</a></h3>
+										href="https://www.udemy.com/certificate/UC-de747e96-09c0-447c-a8b0-2bd9eaab339a/">Become
+										a Web Designer - HTML & CSS For Beginners</a></h3>
 								<p class="font-medium text-secondary text-base mb-6">Oleh <span
 										class="text-slate-800">Udemy</span></p>
 								<a href="https://www.udemy.com/certificate/UC-de747e96-09c0-447c-a8b0-2bd9eaab339a/"
@@ -510,7 +509,8 @@
 								alt="Sertifikat Fundamental HTML & CSS" class="w-full">
 							<div class="py-8 px-6">
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-										href="#">Fundamental HTML & CSS</a></h3>
+										href="https://progate.com/course_certificate/0108e84fqke2x7">Fundamental HTML &
+										CSS</a></h3>
 								<p class="font-medium text-secondary text-base mb-6">Oleh <span
 										class="text-slate-800">Progate</span></p>
 								<a href="https://progate.com/course_certificate/0108e84fqke2x7" target="_blank"
@@ -530,7 +530,8 @@
 								class="w-full">
 							<div class="py-8 px-6">
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-										href="#">Sass Fundamental</a></h3>
+										href="https://progate.com/course_certificate/3faa4b2fqpdwlw">Sass
+										Fundamental</a></h3>
 								<p class="font-medium text-secondary text-base mb-6">Oleh <span
 										class="text-slate-800">Progate</span></p>
 								<a href="https://progate.com/course_certificate/3faa4b2fqpdwlw" target="_blank"
@@ -550,7 +551,8 @@
 								alt="Sertifikat HTML5 - From Basic To Advanced Level 2021" class="w-full">
 							<div class="py-8 px-6">
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-										href="#">HTML5 - From Basic To Advanced Level 2021</a></h3>
+										href="https://www.udemy.com/certificate/UC-cbe1636d-89c0-4a0d-9fc6-27876339651d/">HTML5
+										- From Basic To Advanced Level 2021</a></h3>
 								<p class="font-medium text-secondary text-base mb-6">Oleh <span
 										class="text-slate-800">Udemy</span></p>
 								<a href="https://www.udemy.com/certificate/UC-cbe1636d-89c0-4a0d-9fc6-27876339651d/"
@@ -584,7 +586,8 @@
 								alt="Sertifikat Fundamental PHP Untuk Pengembangan Web" class="w-full">
 							<div class="py-8 px-6">
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-										href="#">Fundamental PHP Untuk Pengembangan Web</a></h3>
+										href="https://progate.com/course_certificate/850d39ecqpcumi">Fundamental PHP
+										Untuk Pengembangan Web</a></h3>
 								<p class="font-medium text-secondary text-base mb-6">Oleh <span
 										class="text-slate-800">Progate</span></p>
 								<a href="https://progate.com/course_certificate/850d39ecqpcumi" target="_blank"
@@ -604,7 +607,8 @@
 								class="w-full">
 							<div class="py-8 px-6">
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-										href="#">Fundamental SQL</a></h3>
+										href="https://progate.com/course_certificate/e1a255e8qkwwki">Fundamental SQL</a>
+								</h3>
 								<p class="font-medium text-secondary text-base mb-6">Oleh <span
 										class="text-slate-800">Progate</span></p>
 								<a href="https://progate.com/course_certificate/e1a255e8qkwwki" target="_blank"
@@ -624,7 +628,8 @@
 								alt="Sertifikat Memulai Pemrograman Dengan Python" class="w-full">
 							<div class="py-8 px-6">
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:hover:text-primary"
-										href="#">Memulai Pemrograman Dengan Python</a></h3>
+										href="https://www.dicoding.com/certificates/RVZK4LRKQPD5">Memulai Pemrograman
+										Dengan Python</a></h3>
 								<p class="font-medium text-secondary text-base mb-6">Oleh <span
 										class="text-slate-800">Dicoding Academy</span></p>
 								<a href="https://www.dicoding.com/certificates/RVZK4LRKQPD5" target="_blank"
@@ -752,7 +757,7 @@
 								<h3><a class="block dark:text-white mb-3 font-semibold text-xl text-dark hover:text-primary dark:hover:text-primary"
 										href="https://www.dicoding.com/certificates/ERZR5K10WPYV">Junior Graphic
 										Designer Digital Talent Scholarship 2021</a></h3>
-								<p class="font-medium text-secondary text-base mb-6">Oleh <span
+								<p class="font-medium text-secondary text-base mb-0">Oleh <span
 										class="text-slate-800">KOMINFO x Politeknik Negeri Malang</span></p>
 							</div>
 						</div>
@@ -771,21 +776,112 @@
 	</section>
 	<!-- END: CERTIFICATE SECTION -->
 
-	<!-- START: CONTACT SECTION -->
-	<section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
+	<!-- START: SERVICES SECTION -->
+	<section id="service" class="pt-36 pb-32 dark:bg-slate-800">
 		<div class="container">
 			<div class="w-full px-4">
 				<div class="max-w-xl mx-auto text-center mb-16">
-					<h4 class="font-semibold text-lg text-primary mb-2 dark:text-indigo-400">Kontak</h4>
-					<h2 class="font-bold text-dark text-3xl sm:text-4xl mb-4 lg:text-5xl dark:text-white">Hubungi Saya
+					<h2 class="font-bold text-dark text-3xl sm:text-4xl mb-4 lg:text-5xl dark:text-white">Layanan Saya
 					</h2>
-					<p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Aliquam, asperiores?</p>
+					<p class="font-medium text-md text-secondary md:text-lg">Ini adalah beberapa layanan yang saya
+						kuasai, jika kamu tertarik hubungi saya 😊.</p>
 				</div>
+			</div>
+
+			<div class="w-full px-4">
+				<div class="flex flex-wrap space-y-20 lg:space-y-0">
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/webdev.svg" alt="web developer Sincan Maulana" class="w-52">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							Web
+							Development</h3>
+					</div>
+
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/uiux.svg" alt="UI/UX Design Sincan Maulana" class="w-52">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							UI/UX Design
+						</h3>
+					</div>
+
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/wordpress.svg" alt="Wordpress developer Sincan Maulana"
+							class="w-52">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							Wordpress Development
+						</h3>
+					</div>
+
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/graphicdes.svg" alt="Graphic Designer Sincan Maulana"
+							class="w-40">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							Graphic Design
+						</h3>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
-	<!-- END: CONTACT SECTION -->
+	<!-- END: SERVICES SECTION -->
+
+	<!-- START: TOOLS SECTION -->
+	<section id="service" class="pt-36 pb-32 dark:bg-slate-800">
+		<div class="container">
+			<div class="w-full px-4">
+				<div class="max-w-xl mx-auto text-center mb-16">
+					<h2 class="font-bold text-dark text-3xl sm:text-4xl mb-4 lg:text-4xl dark:text-white">Software Yang
+						Saya Pakai
+					</h2>
+				</div>
+			</div>
+
+			<div class="w-full px-4">
+				<div class="flex flex-wrap space-y-20 lg:space-y-0">
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/webdev.svg" alt="web developer Sincan Maulana" class="w-52">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							Web
+							Development</h3>
+					</div>
+
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/uiux.svg" alt="UI/UX Design Sincan Maulana" class="w-52">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							UI/UX Design
+						</h3>
+					</div>
+
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/wordpress.svg" alt="Wordpress developer Sincan Maulana"
+							class="w-52">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							Wordpress Development
+						</h3>
+					</div>
+
+					<div class="w-full px-4 lg:w-1/4 flex flex-col justify-center items-center">
+						<img src="./dist/img/services/graphicdes.svg" alt="Graphic Designer Sincan Maulana"
+							class="w-40">
+						<h3
+							class="dark:text-white mb-3 font-bold text-2xl text-slate-800 text-center mt-8 underline decoration-2 decoration-indigo-600">
+							Graphic Design
+						</h3>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- END: TOOLS SECTION -->
 
 	<!-- START: FOOTER SECTION -->
 	<footer class="bg-dark pt-16 pb-12">
